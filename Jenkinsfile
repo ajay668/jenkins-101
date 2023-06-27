@@ -12,12 +12,14 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
+                '''
                 }
         }
         stage('Test') {
             steps {
                 echo "Testing.."
                 sh '''
+                '''
             }
         }
         stage('Deliver') {
@@ -25,6 +27,7 @@ pipeline {
                 echo 'Deliver....'
                 sh '''
                 echo "doing delivery stuff.."
+                '''
             }
         }
     }
