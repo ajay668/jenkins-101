@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo "Building.."
                cd myapp
-                dir
+                Dir
             }
         }
         stage('Test') {
