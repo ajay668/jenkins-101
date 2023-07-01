@@ -22,7 +22,6 @@ pipeline {
                 echo 'Deliver....'
                 
                 echo "doing delivery stuff.."
-                '''
             }
         }
     }
