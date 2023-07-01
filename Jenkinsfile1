@@ -10,7 +10,7 @@ pipeline {
                 sh '''
                 cd myapp
                 sh 'pwd'
-                //pip install -r requirements.txt
+               
                 '''
             }
         }
